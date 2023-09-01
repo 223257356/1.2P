@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+p{
+    color: rgb(53, 53, 53);
+    font-style: italic;
+}
+
+.table-property {
+    color: rgb(118, 113, 114);
+    font-size: 14px;
+}
+
+#heading4 {
+    color: rgba(3, 33, 40, 0.893);
+    font-size: 40px;
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 30px; 
+    }
+
+    p {
+        font-size: 40px;
+    }
+
+    .table-property {
+        font-size: 12px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+}
